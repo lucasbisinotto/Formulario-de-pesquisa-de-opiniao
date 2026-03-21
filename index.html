@@ -137,6 +137,28 @@
                 <input type="color" name="favoriteColor" id="idColor">
             </fieldset>
 
+            <fieldset>
+                <!-- Opinião -->
+                <legend>Opinião</legend>
+
+                <p>Satisfação:</p>
+                <input  id="idOtima" type="radio" name="satisfacao" value="otima">
+                <label for="idOtima">Ótima</label>
+
+                <input  id="idBoa" type="radio" name="satisfacao" value="boa">
+                <label for="idBoa">Boa</label>
+                
+                <input  id="idRegular" type="radio" name="satisfacao" value="regular">
+                <label for="idRegular">Regular</label>
+
+                <input  id="idRuim" type="radio" name="satisfacao" value="ruim">
+                <label for="idRuim">Ruim</label>
+                <br>
+
+                <label for="comentarioOpiniao">Comentário:</label>
+                <textarea name="comentario" placeholder="Digite aqui sua opinião..." id="comentarioOpiniao"></textarea>
+            </fieldset>
+
             <button type="submit">Enviar</button>
 
         </form>
