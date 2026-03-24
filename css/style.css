@@ -116,6 +116,7 @@ button{
     border: 1px solid #cccccc;
     border-radius: 5px;
     cursor: pointer;
+    color: black;
 }
 
 button:hover{
